@@ -1,2 +1,2 @@
-RewriteEgine On
-RewroteRule ^fale-conosco/?$ contatos.php [NC, L]
+RewriteEngine On
+RewriteRule ^fale-conosco/?$ contatos.php [NC,L]
