@@ -1,0 +1,2 @@
+RewriteEgine On
+RewroteRule ^fale-conosco/?$ contatos.php [NC, L]
