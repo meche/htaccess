@@ -1,16 +1,17 @@
-# url Amigável
+# .htaccess configuration
 
-Simples configuração para sites estáticos contendo URL's amigáveis com .htaccess
+Simple configuration for static websites
 
-### o .htaccess
+## Friendly url
  ```
 RewriteEngine On
 RewriteRule ^fale-conosco/?$ contatos.php [NC, L]
  ```
- Onde:
+ where:
  
  ```
- NC //o link não é mais sensitivo, aceitará maíusculo e minúsculo.
- L // declara ser a última regra a ser aplicada.
+ NC // the link don't sensitive and accept uppercase and lowercase.
+ L // declare be the last rule to be apply.
  ```
  
+ ## Redirect Wordpress website
