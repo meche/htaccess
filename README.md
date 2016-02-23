@@ -3,6 +3,7 @@
 Simple configuration for static websites
 
 ## Friendly url
+
  ```
 RewriteEngine On
 RewriteRule ^fale-conosco/?$ contatos.php [NC, L]
@@ -14,8 +15,8 @@ RewriteRule ^fale-conosco/?$ contatos.php [NC, L]
  L // declare be the last rule to be apply.
  ```
  
- ## Redirect Wordpress website
- 
+## Redirect Wordpress website
+
  ```
 Options +FollowSymLinks
 RewriteEngine on
@@ -27,5 +28,4 @@ where:
  R=301 // redirect rule
  L // declare be the last rule to be apply.
 ```
-
 Reference: [Link](http://www.webhosting.uk.com/blog/301-vs-302-redirect/)
